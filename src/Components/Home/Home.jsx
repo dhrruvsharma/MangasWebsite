@@ -147,7 +147,7 @@ const Home = () => {
                     </div>
                 </div>
             ) : <Loader />}
-            <h1>Creadits to <a href="https://mangadex.org/" target="_blank">Mangadex</a>. All the APIs were provided by them. This is just a clone.</h1>
+            <h1>Credits to <a href="https://mangadex.org/" target="_blank">Mangadex</a>. All the APIs were provided by them. This is just a clone.</h1>
         </div>
     )
 }
