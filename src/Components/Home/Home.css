@@ -1,0 +1,55 @@
+html {
+    background-color: black;
+    color: white;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.home-container h1 {
+    margin: 3rem;
+    text-decoration: underline;
+}
+.top-container {
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 20px;
+}
+.fig-container h2{
+    max-width: 20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+.top figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: baseline;
+}
+
+.top img {
+    height: 25vw;
+    width: 18vw;
+    border-radius: 10px;
+    box-shadow: 3px 3px white
+}
+.top figure:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+a {
+    color: white;
+}
